@@ -16,6 +16,12 @@ type Search struct {
 	Url        string
 }
 
+func buildURL(s *Search) {
+	url := "search?q=owner:" + s.Owner + "&language:" + string(s.Language) + "&type=repositories"
+
+	s.Url = url
+}
+
 func (s *Search) IsValid() (bool, []error) {
 	var allErrors []error
 
@@ -23,15 +29,19 @@ func (s *Search) IsValid() (bool, []error) {
 		allErrors = append(allErrors, errors.New("Language must be Valid"))
 	}
 
-	if s.Url == "" {
-		allErrors = append(allErrors, errors.New("URL must be Valid"))
-	}
-
 	if s.Owner == "" {
 		allErrors = append(allErrors, errors.New("Owner must be Valid"))
 	}
 
 	if len(allErrors) > 0 {
+		return false, allErrors
+	}
+
+	buildURL(s)
+
+	if s.Url == "" {
+		allErrors = append(allErrors, errors.New("URL must be Valid"))
+
 		return false, allErrors
 	}
 
