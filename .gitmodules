@@ -1,0 +1,12 @@
+[submodule "python/python-studyspace"]
+	path = python/python-studyspace
+	url = https://github.com/bragamat/python-studyspace
+[submodule "typescript/pro-essentials-workshop"]
+	path = typescript/pro-essentials-workshop
+	url = https://github.com/bragamat/pro-essentials-workshop
+[submodule "elixir/wristix"]
+	path = elixir/wristix
+	url = git@github.com:bragamat/wristix.git
+[submodule "ruby/wristix-ruby-sdk"]
+	path = ruby/wristix-ruby-sdk
+	url = git@github.com:bragamat/wristix-ruby-sdk.git
