@@ -10,3 +10,6 @@
 [submodule "ruby/wristix-ruby-sdk"]
 	path = ruby/wristix-ruby-sdk
 	url = git@github.com:bragamat/wristix-ruby-sdk.git
+[submodule "typescript/advanced-react-with-typescript"]
+	path = typescript/advanced-react-with-typescript
+	url = git@github.com:bragamat/advanced-react-with-typescript.git
