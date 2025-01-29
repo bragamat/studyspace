@@ -13,3 +13,6 @@
 [submodule "typescript/advanced-react-with-typescript"]
 	path = typescript/advanced-react-with-typescript
 	url = git@github.com:bragamat/advanced-react-with-typescript.git
+[submodule "elixir/elixir-by-tests"]
+	path = elixir/elixir-by-tests
+	url = git@github.com:bragamat/elixir-by-tests.git
