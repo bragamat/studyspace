@@ -19,3 +19,6 @@
 [submodule "typescript/type-challenges"]
 	path = typescript/type-challenges
 	url = git@github.com:bragamat/type-challenges.git
+[submodule "elixir/livebook"]
+	path = elixir/livebook
+	url = git@github.com:bragamat/elixir-livebook.git
