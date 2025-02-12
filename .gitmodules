@@ -22,3 +22,6 @@
 [submodule "elixir/livebook"]
 	path = elixir/livebook
 	url = git@github.com:bragamat/elixir-livebook.git
+[submodule "elixir/redis-elixir"]
+	path = elixir/redis-elixir
+	url = https://git.codecrafters.io/f3eacba023c0d0a6
