@@ -25,3 +25,6 @@
 [submodule "elixir/redis-elixir"]
 	path = elixir/redis-elixir
 	url = https://git.codecrafters.io/f3eacba023c0d0a6
+[submodule "go/muchmoney"]
+	path = go/muchmoney
+	url = https://github.com/brateqcom/muchmoney
